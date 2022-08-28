@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 
     const swiper1 = new Swiper('.swiper1', {
         speed: 400,
@@ -56,4 +56,3 @@ $(document).ready(function() {
     $close.on('click', function () {
         $modal.fadeOut()
     });
-});
