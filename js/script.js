@@ -29,7 +29,7 @@ const header = document.querySelector('.header')
 
 	const popup = document.querySelectorAll('.popup');
 	const popupTest = document.querySelector('.js-popupTest');
-  const popupFitness = document.querySelector('.js-popupTest');
+  const popupFitness = document.querySelector('.js-popupFitness');
 	const iconFitness = document.querySelector('.js-iconFitness');
   const iconTest = document.querySelector('.js-test');
 	const popupClose = document.querySelectorAll('.js-popupClose');
