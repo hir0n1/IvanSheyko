@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 
 let header = $('.header'),
 	scrollPrev = 0;
@@ -107,7 +107,7 @@ $items.each(function() {
 			}) 
 		})
 	});
-});
+
 
 ///hamburger
 
