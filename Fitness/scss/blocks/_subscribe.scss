@@ -1,0 +1,58 @@
+.subscribe {
+    padding: 230px 0 262px 0;
+    background: #FFFAFB;
+    user-select: none;
+    position: relative;
+    &__descr {
+        display: block;
+        margin: 24px auto 0;
+        width: 633px;
+        p {
+            font-family: 'Alegreya';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+            text-align: center;
+            color: #504747;
+            margin-bottom: 0;
+        }       
+    }
+    &__input {
+        display: block;
+        margin: 36px auto 0;
+        padding: 0 220px 0 79px;
+        width: 632px;
+        height: 76px;   
+        background: #FFFFFF;
+        border-radius: 36.5px;
+        border: none;
+        box-shadow: 10px 10px 80px -5px #cab3b6;
+        &:focus {
+            outline: none; 
+        }
+    }
+    &__button {
+        position: absolute;
+        right: 279px;
+        top: 196px;
+    }
+    &__waist {
+        position: absolute;
+        top: -120px;
+        left: 570px;
+    }
+    &__rectangles {
+        position: absolute;
+        left: -300px;
+        top: -100px;
+    }
+    &__table {
+        position: absolute;
+        left: -50px;
+    }
+    &__running {
+        position: absolute;
+        right: 0;
+    }
+}

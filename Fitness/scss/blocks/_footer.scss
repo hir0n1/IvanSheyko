@@ -1,0 +1,99 @@
+.footer {
+    height: 430px;
+    padding: 67px 0 112px 0;
+    background: rgba(255, 243, 244, 0.9);
+    &__wrapper {
+        display: flex;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        width: 333px;
+        margin-right: 168px;
+    }
+    &__logo {
+        display: flex;
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 120%;
+        color: #3A1212;
+        align-items: center;
+    }
+    &__name {
+        display: flex;
+        align-items: center;
+        padding-top: 18px;
+        margin: 0 0 0 14px;
+    }
+    &__socials {
+        margin-top: 26px;
+        display: flex;
+    }
+    &__circle {
+        height: 45px;
+        width: 45px;
+        background: #fff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s all;
+        margin-right: 13px;
+        &:hover {
+            background: #FF2625;
+            svg {
+                path {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+    &__text {
+        width: 291px;
+        margin-top: 33px;
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+        color: #504747;
+    } 
+    &__label {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__title {
+        margin-top: 15px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #3A1212;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+        a {
+            text-decoration: none;
+            color: #504747;
+            transition: 0.5s all;
+            &:hover {
+                color: #FF2625;
+            }
+        }
+    }
+    
+}

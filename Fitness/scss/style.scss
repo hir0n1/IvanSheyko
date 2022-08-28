@@ -1,0 +1,22 @@
+@import 'base/UI';
+@import 'base/fonts';
+@import 'base/buttons';
+@import 'base/titles';
+@import 'base/arrows';
+@import 'blocks/header';
+@import 'blocks/services';
+@import 'blocks/benefits';
+@import 'blocks/moods';
+@import 'blocks/instructors';
+@import 'blocks/testomonial';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+

@@ -1,0 +1,74 @@
+.benefits {
+    height: 710px;
+    background: #FFFAFB;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        position: relative;
+    }
+    &__dots {
+        position: absolute;
+        left: -45px;
+        top: -45px;
+    }
+    &__text {
+        padding: 108px 0 103px 102px;
+        
+    }
+    &__title {
+        text-align: left;
+    }
+    &__subtitle {
+        margin-top: 28px;
+        text-align: left;
+    }
+    &__descr {
+        margin-top: 22px;
+        text-align: left;
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #504747;
+    }
+    &__btn {
+        margin-top: 42px;
+    }
+    &__waist {
+        position: absolute;
+        top: -30px;
+        right: 268px;
+        user-select: none; 
+    }
+    &__rope {
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: -300px;
+        user-select: none; 
+    }
+    &__dumbbell {
+        position: absolute;
+        right: 250px;
+        bottom: -50px;
+        user-select: none; 
+    }
+    &__rectangle {
+        display: none;
+        position: absolute;
+        right: -280px;
+        bottom: -100px;
+        transform: scale(-1, 1);
+        user-select: none; 
+    }
+    &__squat {
+        position: absolute;
+        left: -200px;
+        bottom: 200px;
+        user-select: none; 
+    }
+}

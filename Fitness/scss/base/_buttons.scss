@@ -1,0 +1,20 @@
+.button {
+    width: 200px;
+    height: 58px;
+    border: 0.75px solid #FF2625;
+    border-radius: 29px;
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #3A1212;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.4s all;
+    user-select: none;
+    &:hover {
+        box-shadow: 10px 10px 80px -5px #cab3b6;
+        background: #FF2625;
+        color: #FFFFFF;
+    }
+}

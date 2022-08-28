@@ -1,0 +1,48 @@
+.moods {
+    height: 1070px;
+    background: #FFFAFB;
+    padding: 213px 0 146px 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__text {
+        padding: 106px 108px 107px 0;
+    }
+    &__title {
+        text-align: left;
+    }
+    &__subtitle {
+        margin-top: 28px;
+        text-align: left;
+    }
+    &__descr {
+        margin-top: 22px;
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #504747;
+    }
+    &__btn {
+        margin-top: 42px;
+    }
+    &__dots {
+        position: absolute;
+        right: -45px;
+        bottom: -45px;
+        user-select: none; 
+    }
+    &__ball {
+        position: absolute;
+        top: -90px;
+        left: 250px;
+        user-select: none; 
+    }
+    &__table {
+        position: absolute;
+        left: -300px;
+        top: 260px;
+        user-select: none; 
+    }
+}

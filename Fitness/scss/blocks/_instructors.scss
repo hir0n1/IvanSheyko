@@ -1,0 +1,112 @@
+.instructors {
+    min-height: 700px;
+    background: #FFFAFB;
+    user-select: none;
+    position: relative;
+    &__subtitle {
+        width: 445px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        
+    }
+    &__slide {
+        width: 266px;
+        height: 489px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        position: relative;
+        transition: 0.4s all;
+    }
+    &__name {
+        display: block;
+        margin-top: 38px;
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+        color: #000000;
+    }
+    &__post {
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        text-align: center;
+        color: #504747;
+    }
+    &__photo {
+        height: 315px;
+        border-radius: 20px 20px 0px 0px;
+        transition: 0.4s all;
+        position: relative;
+        &_1 {
+            background: url('../img/inst1.jpg') center center/cover no-repeat;
+        }
+        &_2 {
+            background: url('../img/inst3.jpg') center center/cover no-repeat;
+        }
+        &_3 {
+            background: url('../img/inst2.jpg') center center/cover no-repeat;
+        }
+    }
+    &__rectangles {
+        position: absolute;
+        top: -100px;
+        left: -300px;
+    }
+    &__rope {
+        position: absolute;
+        left: 200px;
+        top: -150px;
+    }
+    &__waist {
+        position: absolute;
+        top: 30px;
+        right: 150px;
+    }
+    &__dumbbell {
+        position: absolute;
+        left: -180px;
+        bottom: 220px;
+    }
+    
+}
+.swiper2 {
+    width: 990px;
+}
+
+.swiper-prev {
+    &::before {
+        content: '';
+        position: absolute;
+        border-top: 60px solid #FFFAFB;
+        border-left: 257px solid transparent;
+        top: 0;
+        left: 25px;
+        z-index: 1;
+    }
+    .instructors__photo {
+        height: 100%;    
+    }
+}
+.swiper-next {
+    &::before {
+        content: '';
+        position: absolute;
+        border-top: 60px solid #FFFAFB;
+        border-right: 257px solid transparent;
+        top: 0;
+        left: -3px;
+        z-index: 1;
+    }
+    .instructors__photo {
+        height: 100%;
+    }
+
+}
+

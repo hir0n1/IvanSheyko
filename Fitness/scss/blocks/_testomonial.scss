@@ -1,0 +1,90 @@
+.testomonial {
+    padding: 204px 0 0 0;
+    background: #FFFAFB;
+    user-select: none; 
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 500px 370px;
+        gap: 100px;
+    }
+    &__title {
+        text-align: left;
+    }
+    &__subtitle {
+        text-align: left;
+    }
+    &__swiper {
+        padding: 79px 60px 60px 60px;
+        position: absolute;
+        top: 265px;
+        right: 100px;
+        width: 624px;
+        height: 426px;
+        background: #FFFFFF;
+        border-radius: 2px 100px 2px 2px;    
+        box-shadow: 10px 10px 80px -5px #cab3b6;
+    }
+    &__quotes {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+    }
+    &__text {
+        font-family: 'Josefin Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #504747;
+        -webkit-line-clamp: 5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    &__name {
+        margin: 39px 0 0 0;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        color: #3A1212;
+    }
+    &__place {
+        margin: 8px 0 0 0;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #504747;
+    }
+    &__dots {
+        position: absolute;
+        right: 30px;
+        bottom: -7px;
+        user-select: none; 
+    }
+    &__squat {
+        position: absolute;
+        left: -140px;
+        top: -140px;
+        user-select: none; 
+    }
+    &__ball {
+        position: absolute;
+        right: 174px;
+        user-select: none; 
+        top: -100px;
+    }
+
+    &__rectangles {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: -300px;
+        transform: scale(-1, 1);
+        user-select: none; 
+    }
+}
